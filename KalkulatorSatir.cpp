@@ -69,10 +69,14 @@ int main(){
 					break;
 					
 			}
-		
-		
 		cout<<"------------------------\n";
-		cout<<"Hasil dari "<<angka1<<" "<<Operator<<" "<<angka2<<" = "<<hasil<<"\n";
+		
+		if(Operator == ""){
+			cout<<"Sytem Error\n";
+		} else {
+			cout<<"Hasil dari "<<angka1<<" "<<Operator<<" "<<angka2<<" = "<<hasil<<"\n";
+		}
+		
 		
 		cout<<"Tekan 0 untuk ulang, atau tekan 1 untuk keluar: ";
 		cin>>ulang;
